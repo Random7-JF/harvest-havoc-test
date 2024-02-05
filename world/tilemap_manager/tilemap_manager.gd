@@ -39,4 +39,4 @@ func update_terrian(tile_coords: Vector2i, terrain_set: int, terrain_id: int):
 			var farmland: Array[Vector2i] = []
 			farmland.append(tile_coords)
 			print("farmland array: ", farmland)
-			tilemap.set_cells_terrain_connect(ground_layer, farmland, terrain_set, terrain_id)
+			tilemap.set_cells_terrain_connect(farmland_layer, farmland, terrain_set, terrain_id)
